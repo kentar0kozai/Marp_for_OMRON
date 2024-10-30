@@ -1,0 +1,284 @@
+/* @theme def */
+
+@import 'default';
+
+
+section.top-page {
+    background-color: white;
+    color: #003366;
+    font-family: 'Meiryo UI', sans-serif;
+    box-sizing: border-box;
+    position: relative;
+    background-image: url('template/OMRON.png');
+    background-size: 167px 33px;;
+    background-position: center 660px;
+    background-repeat: no-repeat;
+}
+
+section.top-page::before {
+    content: "";
+    display: block;
+    background-color: #003366;
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+section.top-page::after {
+    content: "";
+    display: block;
+    background-color: #003366;
+    height: 10px;
+    width: 200%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+section.top-page h1 {
+    font-size: 36px;
+    color: #003366;
+    text-align: center;
+    margin-top: 50px;
+    border: 1px dashed #ffffff;
+    padding: 80px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+section.top-page h2 {
+    font-size: 28px;
+    color: #003366;
+    text-align: center;
+    margin: 0px auto;
+    border: 1px dashed #ffffff;
+    padding: 0px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+section.top-page h3 {
+    font-size: 28px;
+    color: #003366;
+    text-align: center;
+    margin: 10px auto;
+    border: 1px dashed #ffffff;
+    padding: 0px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+
+section.second-page {
+    font-family: 'Meiryo UI', sans-serif;
+    font-size: 24px;
+    color: #003366;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: absolute;
+    background-image: url('template/OMRON.png');
+    background-size: 101px 20px;
+    background-position: center 697px;
+    background-repeat: no-repeat;
+}
+
+section.second-page h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+    padding: 10px 0;
+    border-top: 4px solid #003366;
+    border-bottom: 0px solid #003366;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #003366;
+}
+
+section.second-page ul {
+    list-style-type: disc;
+    position: sticky;
+    top: 0px;
+    left: 0;
+    right: 0;
+    padding-left: 40px;
+    margin: 20px 0 0 40px;
+    font-size: 24px;
+}
+
+section.second-page ul ul {
+    list-style-type: circle;
+    position: relative;
+    padding-left: 40px;
+    margin: 0px 0 0 40px;
+    font-size: 20px;
+}
+
+section.second-page ul ul ul {
+    list-style-type: square;
+    padding-left: 40px;
+}
+
+section.second-page::before {
+    content: "";
+    display: block;
+    background-color: #003366;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+}
+
+
+
+section.slide {
+    font-family: 'Meiryo UI', sans-serif;
+    font-size: 24px;
+    color: #003366;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: absolute;
+    background-image: url('template/OMRON.png');
+    background-size: 101px 20px;
+    background-position: center 697px;
+    background-repeat: no-repeat;
+}
+
+section.slide h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #003366;
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 4px solid #003366;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+section.slide h2 {
+    font-size: 24px;
+    background-color: #d0e7ff;
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: calc(100% - 40px);
+    margin: 0 20px;
+    box-sizing: border-box;
+}
+
+section.slide h2 + h2 {
+    margin-top: 20px;
+}
+
+section.slide p {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 180px;
+    left: 0;
+    width: calc(100% - 40px);
+    margin: 0 40px;
+    box-sizing: border-box;
+}
+
+/* 内容のリスト */
+section.slide ul {
+    list-style-type: disc;
+    position: sticky;
+    top: 0px;
+    left: 0;
+    right: 0;
+    padding-left: 40px;
+    margin: 140px 0 0 40px;
+    font-size: 24px;
+}
+
+section.slide ul ul {
+    list-style-type: circle;
+    position: relative;
+    padding-left: 40px;
+    margin: 0px 0 0 40px;
+    font-size: 20px;
+}
+
+section.slide ul ul ul {
+    list-style-type: square;
+    padding-left: 40px;
+}
+
+section.slide::before {
+    content: "";
+    display: block;
+    background-color: #003366;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+}
+
+section::after {
+    content: counter(page);
+    position: absolute;
+    bottom: 10px;
+    right: 0%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: #003366;
+}
+
+header {
+    width: 100%;
+	position: absolute;
+    top: unset;
+    bottom: 8px;
+    left: 480px;
+    text-align: center;
+    font-size: 14px;
+    color: #003366;
+    z-index: 10;
+    width: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    font-size: 18px;
+    color: #c00000;
+    z-index: 10;
+    width: 100%;
+}
+
+section.end {
+    box-sizing: border-box;
+    position: absolute;
+    background-image: url('template/OMRON.png');
+    background-size: 505px 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+section.end header, section.end footer, section.end::after {
+    display: none;
+}
