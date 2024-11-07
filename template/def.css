@@ -108,6 +108,7 @@ section.second-page h1 {
 }
 
 section.second-page ul {
+    width: 90%;
     list-style-type: disc;
     position: sticky;
     top: 0px;
