@@ -38,6 +38,8 @@ footer: Confidential B
 
 ## エディタは VS Code を想定する．<br>そのほかのエディタが使いたい場合は各自で設定
 
+<column-center>asdfasdfasdfasdfasdf</column-center>
+
 - VS Code に拡張機能の Marp for VS Code をインストールする．
 - Marp_for_OMRON フォルダを VS Code で開く．
 - 設定の Markdown > Marp: Themes のリストに https://raw.githubusercontent.com/kentar0kozai/Marp_for_OMRON/refs/heads/main/template/def.css を追加する．
@@ -45,7 +47,13 @@ footer: Confidential B
 - テンプレートが反映されていない場合は，左上タブのファイル > フォルダーをワークスペースに追加 で Marp_for_OMRON フォルダを追加する．
 - Markdown All in One, Insert br Tag という拡張機能がおすすめ．
 - その他の使い方はネットで探すこと．
-  <br><br>
+  <br>
+
+---
+
+<!-- class: slide -->
+
+<img src="image.png" width=400 style="position: absolute; left: 750px; top: 200px;"/>
 
 ---
 
