@@ -10,38 +10,41 @@ footer: Confidential B
 <!-- 1枚目 -->
 <!-- class: top-page -->
 
-# OMRAI 進捗報告
+# Marp スライドテンプレート プロトタイプ
 
-## 2024年 11月 7日
+## 2024 年 11 月 3 日
 
-### （技本）VP 香西健太郎
+### 技術・知財本部
+
+### 小室太郎
 
 ---
 
 <!-- class: second-page -->
 
-# 進捗
+# 目的
 
-- 論文1本目【Picking Risks Estimation】 の再構築
-  - 新規性について
-  - プログラムについて
+- メモ書き → スライド化の工数を削減する．
+  - Markdown 形式のスライドテンプレートを利用
+  - 議事録等をテンプレートの形式に合わせて記録することでそのままスライド作成
   - 実験について
 
 ---
 
 <!-- class: slide -->
 
-# Picking Risks Score（PRS）の再構築
+# 使い方
 
-## 現提案手法は最近の査読付き論文に引用され改良版が出てていたりと，今論文として出すには遅い？</br> そのまま出してもいいがせめて実験は追加したい．．．が教授にはせっつかれる．
+## エディタは VS Code を想定する．<br>そのほかのエディタが使いたい場合は各自で設定
 
-- VS Codeに拡張機能のMarp for VS Codeをインストールする．
-- Marp_for_OMRONフォルダをVS Codeで開く．
-- 設定の Markdown > Marp: Themes のリストに./templete/def.cssを追加する．
+- VS Code に拡張機能の Marp for VS Code をインストールする．
+- Marp_for_OMRON フォルダを VS Code で開く．
+- 設定の Markdown > Marp: Themes のリストに https://raw.githubusercontent.com/kentar0kozai/Marp_for_OMRON/refs/heads/main/template/def.css を追加する．
 - 右上のプレビューを横に表示ボタンを押すとスライドが表示される．
-- (テンプレートが反映されていない場合は，左上タブのファイル > フォルダーをワークスペースに追加 でMarp_for_OMRONフォルダを追加する．)
-- Markdown All in Oneという拡張機能がおすすめ．
+- テンプレートが反映されていない場合は，左上タブのファイル > フォルダーをワークスペースに追加 で Marp_for_OMRON フォルダを追加する．
+- Markdown All in One, Insert br Tag という拡張機能がおすすめ．
 - その他の使い方はネットで探すこと．
+  <br><br>
 
 ---
 
