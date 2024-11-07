@@ -205,6 +205,7 @@ section.slide p {
 
 /* 内容のリスト */
 section.slide ul {
+    width: 90%;
     list-style-type: disc;
     position: sticky;
     top: 0px;
