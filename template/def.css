@@ -9,8 +9,9 @@ section.top-page {
     font-family: 'Meiryo UI', sans-serif;
     box-sizing: border-box;
     position: relative;
-    background-image: url('template/OMRON.png');
-    background-size: 167px 33px;;
+    background-image: url('https://raw.githubusercontent.com/kentar0kozai/Marp_for_OMRON/refs/heads/main/template/OMRON.png');
+    background-size: 167px 33px;
+    ;
     background-position: center 660px;
     background-repeat: no-repeat;
 }
@@ -86,7 +87,7 @@ section.second-page {
     padding: 0;
     box-sizing: border-box;
     position: absolute;
-    background-image: url('template/OMRON.png');
+    background-image: url('https://raw.githubusercontent.com/kentar0kozai/Marp_for_OMRON/refs/heads/main/template/OMRON.png');
     background-size: 101px 20px;
     background-position: center 697px;
     background-repeat: no-repeat;
@@ -152,7 +153,7 @@ section.slide {
     padding: 0;
     box-sizing: border-box;
     position: absolute;
-    background-image: url('template/OMRON.png');
+    background-image: url('https://raw.githubusercontent.com/kentar0kozai/Marp_for_OMRON/refs/heads/main/template/OMRON.png');
     background-size: 101px 20px;
     background-position: center 697px;
     background-repeat: no-repeat;
@@ -186,7 +187,7 @@ section.slide h2 {
     box-sizing: border-box;
 }
 
-section.slide h2 + h2 {
+section.slide h2+h2 {
     margin-top: 20px;
 }
 
@@ -250,7 +251,7 @@ section::after {
 
 header {
     width: 100%;
-	position: absolute;
+    position: absolute;
     top: unset;
     bottom: 8px;
     left: 480px;
@@ -274,11 +275,14 @@ footer {
 section.end {
     box-sizing: border-box;
     position: absolute;
-    background-image: url('template/OMRON.png');
+    background-image: url('https://raw.githubusercontent.com/kentar0kozai/Marp_for_OMRON/refs/heads/main/template/OMRON.png');
     background-size: 505px 100px;
     background-position: center;
     background-repeat: no-repeat;
 }
-section.end header, section.end footer, section.end::after {
+
+section.end header,
+section.end footer,
+section.end::after {
     display: none;
 }
