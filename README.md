@@ -38,7 +38,7 @@ footer: Confidential B
 
 ## エディタは VS Code を想定する．<br>そのほかのエディタが使いたい場合は各自で設定
 
-<column-center>asdfasdfasdfasdfasdf</column-center>
+Marp は絶対パス指定ができないので気を付けること．
 
 - VS Code に拡張機能の Marp for VS Code をインストールする．
 - Marp_for_OMRON フォルダを VS Code で開く．
