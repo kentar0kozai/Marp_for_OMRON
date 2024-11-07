@@ -10,7 +10,7 @@ footer: Confidential B
 <!-- 1枚目 -->
 <!-- class: top-page -->
 
-# Marp スライドテンプレート プロトタイプ
+# Marp スライドテンプレート v3
 
 ## 2024 年 11 月 3 日
 
@@ -53,7 +53,8 @@ Marp は絶対パス指定ができないので気を付けること．
 
 <!-- class: slide -->
 
-<img src="image.png" width=400 style="position: absolute; left: 750px; top: 200px;"/>
+<img src="image.png" width=500 style="position: absolute; left: 100px; top: 70px;"/>
+<img src="image-1.png" width=500 style="position: absolute; left: 680px; top: 70px;"/>
 
 ---
 
