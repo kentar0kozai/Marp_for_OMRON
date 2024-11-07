@@ -286,3 +286,23 @@ section.end footer,
 section.end::after {
     display: none;
 }
+
+img[src*="#right1"] {
+    position: absolute;
+    left: 60%;
+    height: 230px;
+    aspect-ratio: auto;
+    width: auto;
+    transform: translateY(-210%);
+}
+
+img[src*="#right2"] {
+    position: absolute;
+    right: 5%;
+    height: 250px;
+    aspect-ratio: auto;
+    width: auto;
+    top: 70%;
+    transform: translateY(-50%);
+    margin: 1em 0;
+}
