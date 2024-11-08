@@ -98,7 +98,7 @@ section.second-page p {
     margin: 0;
     padding: 0;
     position: sticky;
-    top: 180px;
+    top: 10px;
     left: 0;
     width: calc(100% - 40px);
     margin: 0 40px;
