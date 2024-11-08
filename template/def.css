@@ -101,7 +101,7 @@ section.second-page p {
     top: 100px;
     left: 0;
     width: calc(100% - 40px);
-    margin: 0 40px;
+    margin: 0 0px;
     box-sizing: border-box;
     text-align: center;
 }
@@ -213,7 +213,7 @@ section.slide p {
     top: 180px;
     left: 0;
     width: calc(100% - 40px);
-    margin: 0 40px;
+    margin: 0 0px;
     box-sizing: border-box;
     text-align: center;
 }
