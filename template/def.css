@@ -38,6 +38,18 @@ section.top-page::after {
     left: 0;
 }
 
+section.top-page p {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 630px;
+    left: 0;
+    width: calc(100% - 40px);
+    margin: 0 40px;
+    box-sizing: border-box;
+}
+
 section.top-page h1 {
     font-size: 36px;
     color: #003366;
